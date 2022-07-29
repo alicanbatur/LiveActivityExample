@@ -13,5 +13,17 @@ Live Activity Example Project
 ## About The Project
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+Apple announced Live Activities as Beta now.
+In this project you can find how I implemented it programmatically.
+
+
+You can find detailed explanation in the blog post at [AppCircle](https://blog.appcircle.io/article/live-activities-in-ios16)
+
+
+[![Product Name Screen Shot][animated]](https://example.com)
+
+
+
 
 [product-screenshot]: sss/states.png
+[animated]: sss/states.png
