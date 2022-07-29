@@ -12,3 +12,6 @@ Live Activity Example Project
 
 ## About The Project
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+
+[product-screenshot]: sss/states.png
