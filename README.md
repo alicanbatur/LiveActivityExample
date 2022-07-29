@@ -8,3 +8,7 @@ Live Activity Example Project
 [TwitterIcon]: /icons/twitter.png (twitter)
 
 [Twitter]: https://www.twitter.com/alicanbatur
+
+
+## About The Project
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
