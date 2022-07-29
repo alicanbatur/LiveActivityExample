@@ -26,4 +26,4 @@ You can find detailed explanation in the blog post at [AppCircle](https://blog.a
 
 
 [product-screenshot]: sss/states.png
-[animated]: sss/states.png
+[animated]: sss/animated.png
