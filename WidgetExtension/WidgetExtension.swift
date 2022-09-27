@@ -14,8 +14,25 @@ struct WidgetExtension: Widget {
   let kind: String = "WidgetExtension"
   
   var body: some WidgetConfiguration {
-    ActivityConfiguration(attributesType: StatusAttribute.self) { context in
+    
+    ActivityConfiguration(for: StatusAttribute.self) { context in
       StatusView(attribute: context.attributes, state: context.state)
+    } dynamicIsland: { context in
+      DynamicIsland {
+        DynamicIslandExpandedRegion(.center) {
+          Image(systemName: "circle")
+            .foregroundColor(.purple)
+        }
+      } compactLeading: {
+        Image(systemName: "circle")
+          .foregroundColor(.blue)
+      } compactTrailing: {
+        Image(systemName: "circle")
+          .foregroundColor(.yellow)
+      } minimal: {
+        Image(systemName: "circle")
+          .foregroundColor(.red)
+      }
     }
   }
 }

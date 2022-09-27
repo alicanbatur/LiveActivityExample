@@ -18,16 +18,16 @@ struct BottomView: View {
         
         Text("Status:")
           .font(.system(size: 28, weight: .regular))
-          .padding(.top, 36)
+          .padding(.top, 16)
         
         Text(state.status.title)
           .font(.system(size: 36, weight: .medium))
-          .padding(.top, 28)
+          .padding(.top, 8)
           .padding(.leading, 5)
         
         Image(state.status.icon)
           .frame(width: 40, height: 40)
-          .padding(.top, 30)
+          .padding(.top, 10)
           .padding(.leading, 8)
       }
       .frame(maxWidth: .infinity, alignment: .leading)
@@ -48,7 +48,7 @@ struct BottomView: View {
       }
       .frame(maxWidth: .infinity, alignment: .leading)
       .padding(.horizontal, 20)
-      .padding(.bottom, 26)
+      .padding(.bottom, 16)
     }
   }
 }

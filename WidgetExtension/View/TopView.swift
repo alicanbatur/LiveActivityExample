@@ -15,7 +15,7 @@ struct TopView: View {
     ZStack {
       Color(hex: "EBEBEB")
       
-      VStack(alignment: .leading, spacing: 8) {
+      VStack(alignment: .leading, spacing: 4) {
         
         Text("CI/CD Process")
           .font(.system(size: 40, weight: .ultraLight))
@@ -24,11 +24,11 @@ struct TopView: View {
           .font(.system(size: 20, weight: .regular))
         
       }
-      .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+      .frame(maxWidth: .infinity, alignment: .leading)
       .padding(.horizontal, 20)
     }
     .frame(maxWidth: .infinity, alignment: .leading)
-    .frame(height: 99)
+    .frame(height: 79)
     .shadow(color: .black.opacity(0.25), radius: 40, x: 0, y: 10)
     
     Rectangle()
